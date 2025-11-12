@@ -2,3 +2,4 @@ _build
 _opam
 .out
 .out.*
+.DS_Store

@@ -5,11 +5,11 @@
 (generate_opam_files true)
 
 (source
- (github algorizr/thoth))
+ (github abdllahdev/thoth))
 
-(authors "Abdullah Elsayed <hi@algorizr.com>")
+(authors "Abdullah Elsayed <hi@abdllah.dev>")
 
-(maintainers "Abdullah Elsayed <hi@algorizr.com>")
+(maintainers "Abdullah Elsayed <hi@abdllah.dev>")
 
 (license MIT)
 
