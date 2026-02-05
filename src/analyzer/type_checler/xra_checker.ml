@@ -525,7 +525,7 @@ let check_component global_env xra_env app_declaration loc id typ args body =
             List.find_exn required_fields ~f:(fun (field, _) ->
                 String.equal id field)
             |> ignore
-          with Not_found_s _ | Caml.Not_found ->
+          with Not_found_s _ | Stdlib.Not_found ->
             raise_undefined_error loc "field" id ~declaration_type
               ~declaration_id)
     in

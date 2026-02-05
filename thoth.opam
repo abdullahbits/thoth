@@ -6,13 +6,22 @@ description:
 maintainer: ["Abdullah Elsayed <hi@abdllah.dev>"]
 authors: ["Abdullah Elsayed <hi@abdllah.dev>"]
 license: "MIT"
-tags: ["dsl" "fullstack" "multitier" "web" "reactjs" "node.js"]
+tags: [
+  "dsl"
+  "fullstack"
+  "multitier"
+  "web"
+  "typescript"
+  "human-readable"
+  "reactjs"
+  "node.js"
+]
 homepage: "https://github.com/abdllahdev/thoth"
 doc: "https://url/to/documentation"
 bug-reports: "https://github.com/abdllahdev/thoth/issues"
 depends: [
   "ocaml"
-  "dune" {>= "3.4"}
+  "dune" {>= "3.10"}
   "core"
   "core_unix"
   "fmt"

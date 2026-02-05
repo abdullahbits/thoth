@@ -20,7 +20,7 @@ let input_file =
 let output_dir =
   let doc = "Output directory" in
   Arg.(
-    value & opt string ".out"
+    value & opt string ".output"
     & info [ "o"; "output_dir" ] ~docv:"OUTPUT_DIR" ~doc)
 
 let db_name =

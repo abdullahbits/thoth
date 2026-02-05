@@ -15,8 +15,10 @@ let generate_app app_specs output_dir db_name server_port =
   generate_server server output_dir server_port db_name;
   generate_client client output_dir server_port;
   system
-    (Fmt.str "cd %s/%s/client && yarn && yarn prettier" (getcwd ()) output_dir)
+    (Fmt.str "cd %s/%s/client && bun install && bun prettier" (getcwd ())
+       output_dir)
   |> ignore;
   system
-    (Fmt.str "cd %s/%s/server && yarn && yarn prettier" (getcwd ()) output_dir)
+    (Fmt.str "cd %s/%s/server && bun install && bun prettier" (getcwd ())
+       output_dir)
   |> ignore
