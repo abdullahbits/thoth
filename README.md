@@ -402,7 +402,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/abdllahdev/thoth.git
+   git clone https://github.com/abdufelsayed/thoth.git
    cd thoth
    ```
 
@@ -540,7 +540,7 @@ thoth/
 
 For an in-depth understanding of Thoth's design, implementation, and evaluation, read the full dissertation:
 
-📄 [**A DSL for Multitier Web Development**](https://github.com/abdllahdev/thoth-dissertation/blob/main/output/dissertation.pdf)
+📄 [**A DSL for Multitier Web Development**](https://github.com/abdufelsayed/thoth-dissertation/blob/main/output/dissertation.pdf)
 
 The dissertation covers:
 - Motivation and related work
@@ -564,7 +564,7 @@ code --install-extension .
 Thoth was created as a master's dissertation project at the University of Birmingham under the supervision of [Dr. Vincent Rahli](https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/rahli-vincent.aspx).
 
 **Author:** Abdullah Elsayed  
-**Repository:** [https://github.com/abdllahdev/thoth](https://github.com/abdllahdev/thoth)  
+**Repository:** [https://github.com/abdufelsayed/thoth](https://github.com/abdufelsayed/thoth)  
 **License:** MIT
 
 ---

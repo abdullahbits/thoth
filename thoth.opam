@@ -16,9 +16,9 @@ tags: [
   "reactjs"
   "node.js"
 ]
-homepage: "https://github.com/abdllahdev/thoth"
+homepage: "https://github.com/abdufelsayed/thoth"
 doc: "https://url/to/documentation"
-bug-reports: "https://github.com/abdllahdev/thoth/issues"
+bug-reports: "https://github.com/abdufelsayed/thoth/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.10"}
@@ -44,4 +44,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/abdllahdev/thoth.git"
+dev-repo: "git+https://github.com/abdufelsayed/thoth.git"

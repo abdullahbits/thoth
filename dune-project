@@ -5,7 +5,7 @@
 (generate_opam_files true)
 
 (source
- (github abdllahdev/thoth))
+ (github abdufelsayed/thoth))
 
 (authors "Abdullah Elsayed <hi@abdllah.dev>")
 
